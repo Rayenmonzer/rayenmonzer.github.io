@@ -4,6 +4,7 @@ import close from "./close.svg";
 import menu from "./menu.svg";
 import mail from "./email.png";
 import phone from "./phone.png";
+import logo from "./logoResto.png";
 
 //Food images
 import aShishTaouk from "./assiette_shish_taouk.jpg";
@@ -20,6 +21,7 @@ import aVege from "./assiette_vege.jpg";
 //THEN EXPORT
 
 export {
+    logo,
     close,
     menu,
     mail,

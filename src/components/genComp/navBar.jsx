@@ -17,7 +17,6 @@ const NavBar = () => {
     useEffect(() => {
       // Save the current language to localStorage
       localStorage.setItem("lang", lang);
-      console.log("HI");
       var pathWithoutLang = window.location.pathname.replace(/\/(en|fr)/, '');
       if(pathWithoutLang === "/"){pathWithoutLang = "/home"}
       const newUrl = lang === "FR" ? `${pathWithoutLang}` : `${pathWithoutLang}/en`;

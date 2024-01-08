@@ -1,9 +1,10 @@
 import React from "react";
 import { SectionWrapper } from "../../../hoc";
+import { logo } from "../../../assets/img/img";
 
 const Hero = () => (
-    <div className="">
-        <p className="italic text-[40px] font-serif">Hero...</p>
+    <div className="flex justify-center sm:h-[70vh] h-[80vh] items-center">
+        <img className="w-fit h-fit" src={logo} alt="logo"/>
     </div>
 )
 
@@ -25,7 +26,7 @@ const HomeFR = () => {
     const SellerSection = SectionWrapper(Sellers, "sellers");
 
     return (
-        <div className="flex-grow h-screen bg-[#161616]">
+        <div className="flex-grow bg-[#161616]">
             <HeroSection />
             <StorySection />
             <SellerSection />

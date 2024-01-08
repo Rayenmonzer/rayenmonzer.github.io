@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { navLinksFR } from "../../assets/constant/data_fr";
 import { navLinksEN } from "../../assets/constant/data_en";
-import { close, menu } from "../../assets/img/img";
+import { close, menu,logo } from "../../assets/img/img";
 
 const NavBar = () => {
     // Retrieve the initial language from localStorage or default to "FR"
@@ -39,7 +39,7 @@ const NavBar = () => {
       <nav className="flex w-full h-[75px] bg-white sticky top-0 border-b z-20 border-black text-black text-[21px]">
         <div className="flex w-full">
           <Link to={`/home${lang === "EN" ? "/en" : ""}`} className="flex items-center sm:ml-12 ml-5">
-            <p className="font-bold italic">Les Grillades Du Cèdre</p>
+            <img className="w-[95%] h-[80%]" src={logo} alt="logo"/>
           </Link>
           {/*OPTIONS ON NAVBAR LARGE SCREEN*/}
           <div className="lg:flex hidden ml-auto h-full">

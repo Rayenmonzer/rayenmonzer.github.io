@@ -1,7 +1,7 @@
 import React from "react";
 // Import necessary FontAwesome libraries
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram,faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => 
 {
@@ -16,7 +16,14 @@ const Footer = () =>
                     rel="noopener noreferrer"
                     >
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
-                    </a>
+                </a>
+                <a
+                href="https://www.facebook.com/profile.php?id=100089957802500&mibextid=ZbWKwL"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
+                </a>
             </div>
         </footer>
     )

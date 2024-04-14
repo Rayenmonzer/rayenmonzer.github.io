@@ -7,20 +7,20 @@ const Hero = () => (
     <div className="flex flex-col justify-center sm:h-[70vh] h-[80vh] items-center">
         <img className="w-fit h-fit" src={logo} alt="logo"/>
         <p className="text-[30px] font-light text-center">Restaurant. Café. Traiteur.</p>
-        <div className="w-full flex justify-center mt-[200px]">
-                <a
-                        href="https://linktr.ee/lesgrilladesducedres"
-                        target="_blank"
-                        className="bg-red-600 rounded-xl px-5" rel="noreferrer"
-                        >
-                        <p className="text-white text-[40px] w-fit text-center">COMMANDER MAINTENANT!</p>
-                </a>
-        </div>
     </div>
 )
 
 const Story = () => (
     <div className="">
+        <div className="w-full flex justify-center mb-[40px]">
+            <a
+                    href="https://linktr.ee/lesgrilladesducedres"
+                    target="_blank"
+                    className="bg-red-600 rounded-xl px-5" rel="noreferrer"
+                    >
+                    <p className="text-white text-[40px] w-fit text-center">COMMANDER MAINTENANT!</p>
+            </a>
+        </div>
         <p className="italic text-[30px] md:text-[70px] font-bold font-serif">Notre Histoire...</p>
         <div className="flex-col my-10">
             <img src={h1} alt="h1" />
@@ -58,13 +58,13 @@ const HomeFR = () => {
             <HeroSection />
             <StorySection />
             <SellerSection />
-            <div className="w-full flex justify-center">
+            <div className="w-full flex justify-center py-5">
                 <a
                         href="https://linktr.ee/lesgrilladesducedres"
                         target="_blank"
                         className="bg-red-600 rounded-xl px-5" rel="noreferrer"
                         >
-                        <p className="text-white text-[50px] w-fit">COMMANDER MAINTENANT!</p>
+                        <p className="text-white text-[50px] w-fit text-center">COMMANDER! </p>
                 </a>
             </div>
         </div>

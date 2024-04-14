@@ -16,16 +16,47 @@ import phone from "./phone.png";
 import logo from "./logoResto.png";
 
 //Food images
-import aShishTaouk from "./assiette_shish_taouk.jpg";
-import aShawarma from "./assiette_shawarma.jpg";
-import aMixte from "./assiette_mixte.jpg";
-import aKafta from "./assiette_kafta.jpg";
-import aBrochette from "./assiette_brochette.jpg";
-import aFiletDePoulet from "./assiette_filet_poulet.jpg";
-import aMerguez from "./assiette_merguez.jpg";
-import aFalafel from "./assiette_falafel.jpg";
-import sDePoulet from "./salade_poulet.jpg";
-import aVege from "./assiette_vege.jpg";
+
+import aDej from './dej/assiette_dejeuner.jpeg';
+import aUlt from './dej/assiette_ultime.jpeg';
+import bBaconFromage from './dej/bagel_fromage_bacon.jpeg';
+import blt from './dej/blt.jpeg';
+import bBreakfast from './dej/bowl_breakfast.jpg';
+import cMatin from './dej/club_matin.jpeg';
+import cDej from './dej/croissant_dejeuner.jpeg';
+import gCheese from './dej/grilled_cheese.jpeg';
+import mAnglais from './dej/muffin_anglais.jpeg';
+import oWest from './dej/omelette_western.jpeg';
+import sExtreme from './dej/sandwich_extreme.jpeg';
+
+import aShishTaouk from "./dinner/assiette_shish_taouk.jpg";
+import aShawarma from "./dinner/assiette_shawarma.jpg";
+import aMixte from "./dinner/assiette_mixte.jpg";
+import aKafta from "./dinner/assiette_kafta.jpg";
+import aBrochette from "./dinner/assiette_brochette.jpg";
+import aFiletDePoulet from "./dinner/assiette_filet_poulet.jpg";
+import aMerguez from "./dinner/assiette_merguez.jpg";
+import aFalafel from "./dinner/assiette_falafel.jpg";
+import sDePoulet from "./dinner/salade_poulet.jpg";
+import aVege from "./dinner/assiette_vege.jpg";
+import trio from './dinner/trio.jpeg';
+import couscous from './dinner/couscous_legumes.jpeg';
+import pReg from './dinner/poutine.jpeg';
+import pShawarma from './dinner/poutine_shawarma.jpeg';
+import burger from "./dinner/burger.jpeg";
+import saladeReg from "./dinner/salade.jpeg";
+
+import bSaumon from './side/bagel_saumon.jpeg';
+import falafel from "./side/Falafel.jpeg";
+import patate from "./side/patate.jpeg";
+import rice from "./side/riz.jpeg";
+
+import chausson from "./sweet/chausson.jpeg";
+import choco from "./sweet/chocolatine.jpeg";
+import cAmandes from "./sweet/croissant_amandes.jpeg";
+import muffin from "./sweet/muffin.jpeg";
+import baklava from "./sweet/baklava.jpeg";
+import croissant from "./sweet/croissant.jpeg";
 
 //THEN EXPORT
 
@@ -43,6 +74,17 @@ export {
     menu,
     mail,
     phone,
+    aDej,
+    aUlt,
+    bBaconFromage,
+    blt,
+    bBreakfast,
+    cMatin,
+    cDej,
+    gCheese,
+    mAnglais,
+    oWest,
+    sExtreme,
     aShishTaouk,
     aShawarma,
     aMixte,
@@ -53,4 +95,20 @@ export {
     aFalafel,
     sDePoulet,
     aVege,
+    trio,
+    couscous,
+    pReg,
+    saladeReg,
+    pShawarma,
+    burger,
+    bSaumon,
+    falafel,
+    patate,
+    rice,
+    chausson,
+    choco,
+    cAmandes,
+    muffin,
+    baklava,
+    croissant,
 };

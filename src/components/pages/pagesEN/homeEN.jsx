@@ -4,8 +4,9 @@ import { logo,h5,h6,h7,h8 } from "../../../assets/img/img";
 import { aShishTaouk,aShawarma } from "../../../assets/img/img";
 
 const Hero = () => (
-    <div className="flex justify-center sm:h-[70vh] h-[80vh] items-center">
+    <div className="flex flex-col justify-center sm:h-[70vh] h-[80vh] items-center">
         <img className="w-fit h-fit" src={logo} alt="logo"/>
+        <p className="text-[30px] font-light">Restaurant. Coffee Shop. Caterer.</p>
     </div>
 )
 

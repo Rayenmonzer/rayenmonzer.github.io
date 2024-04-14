@@ -4,10 +4,12 @@ import { motion } from "framer-motion";
 import { SectionWrapper } from "../../hoc";
 import { fadeIn, textVariant } from "../../utils/motion";
 import MenuNavEN from "./menuNavEN";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUtensils } from '@fortawesome/free-solid-svg-icons';
 
 const Article = ({index,img,title,description}) => 
 (
-  <div className="h-fit">
+  <div>
       <div className='w-full h-full rounded-[20px] border border-grey shadow-lg'>
       <div options={{max: 45,scale: 1,speed: 450}} className=' rounded-[20px] w-[200px] overflow-hidden h-fit flex items-center flex-col'>
           <img src={img} alt={title} className='w-50 h-50 object-contain'/>
@@ -35,6 +37,13 @@ const Category = ({index, id, title, articles}) =>
               <Article key={article.title} index={index}  {...article}/>
           ))}
       </div>
+      {title === "Breakfast" && (
+        <div className="text-black flex gap-2 my-5">
+          <p>*</p>
+          <FontAwesomeIcon icon={faUtensils} />
+          <p>Trio option available: 12 oz Coffee with potatoes or cookies</p>
+        </div>
+      )}
   </motion.div>
 )
 

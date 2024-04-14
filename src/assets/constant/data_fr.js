@@ -1,8 +1,4 @@
-//Importing food images
-import { aShishTaouk, aShawarma, 
-  aMixte, aKafta, aBrochette, 
-  aFiletDePoulet, aMerguez, 
-  aFalafel, sDePoulet, aVege } from "../img/img";
+import { aBrochette, aDej, aFalafel, aFiletDePoulet, aKafta, aMerguez, aMixte, aShawarma, aShishTaouk, aUlt, aVege, bBaconFromage, bBreakfast, baklava, blt, burger, cAmandes, cDej, cMatin, chausson, choco, couscous, croissant, falafel, gCheese, logo, mAnglais, muffin, oWest, pReg, pShawarma, patate, rice, sDePoulet, sExtreme, saladeReg, trio } from "../img/img";
 
 //NAVIGATION BAR
 const navLinksFR = [
@@ -31,215 +27,291 @@ const menuNavFR = [
     title: "Petit-déjeuner",
   },
   {
-    id: "lunch",
-    title: "Déjeuner",
-  },
-  {
     id: "dinner",
     title: "Dîner",
   },
   {
-    id: "snacks",
-    title: "Collations",
+    id: "sides",
+    title: "Accompagnements",
   },
   {
-    id: "dessert",
-    title: "Dessert",
+    id: "sweets",
+    title: "Viennoiserie",
   },
 ];
 
-//"food" ITEMS
+
 const itemsFR = [
   {
     id: "breakfast",
     title: "Petit-déjeuner",
     articles: [
-      // Add breakfast items as needed
-    ],
-  },
-  {
-    id: "lunch",
-    title: "Déjeuner",
-    articles: [
-      // Add lunch items as needed
+      {
+        id: "1",
+        img: aDej,
+        title: "Assiette Déjeuner",
+        description: "2 oeufs tournés, viande (choix de bacon,jambon ou saucisses), laitues, tomates, patates déjeuner et 2 toasts."
+      },
+      {
+        id: "2",
+        img: mAnglais,
+        title: "Muffin Anglais",
+        description: "Œuf, fromage et viande sur un muffin anglais beurré. *🍴"
+      },
+      {
+        id: "3",
+        img: bBaconFromage,
+        title: "Bagel Fromage Bacon",
+        description: "Bagel beurré avec fromage à la crème et bacon. *🍴"
+      },
+      {
+        id: "4",
+        img: cMatin,
+        title: "Club Matin",
+        description: "Club sandwich de 3 pains, œuf, bacon, fromage, laitue, tomates, mayonnaise et pommes de terre du petit-déjeuner."
+      },
+      {
+        id: "5",
+        img: oWest,
+        title: "Omelette Western",
+        description: "Omelette aux légumes et jambon, servie avec pommes de terre du petit-déjeuner et 2 pains."
+      },
+      {
+        id: "6",
+        img: sExtreme,
+        title: "Sandwich Extrême",
+        description: "Notre sandwich populaire inclut un œuf, jambon, bacon, laitue, tomates et mayonnaise. *🍴"
+      },
+      {
+        id: "7",
+        img: gCheese,
+        title: "Grilled Cheese",
+        description: "*🍴"
+      },
+      {
+        id: "8",
+        img: blt,
+        title: "Sandwich BLT",
+        description: "Sandwich de bacon, laitue et tomates. *🍴" 
+      },
+      {
+        id: "9",
+        img: cDej,
+        title: "Croissant Déjeuner",
+        description: "Œuf, fromage, jambon, bacon, laitue, tomates et mayonnaise servi dans un croissant beurré. *🍴"
+      },
+      {
+        id: "10",
+        img: aUlt,
+        title: "Assiette Ultime",
+        description: "Assiette contenant 3 œufs, 2 bacons, 2 saucisses, 2 jambons, laitue, tomates, pommes de terre et 2 tranches de pain."
+      },
+      {
+        id: "11",
+        img: bBreakfast,
+        title: "Bol Déjeuner",
+        description: "Bol avec une base de patates déjeuner, deux oeufs, bacon, saucisse, jambon, legumes fris et sauce au choix."
+      },
     ],
   },
   {
     id: "dinner",
     title: "Dîner",
     articles: [
-      { id: "1", img: aShishTaouk, title: "Assiette Shish Taouk", description: "Poulet, citron, huile d'olive, épices" },
-      { id: "2", img: aShawarma, title: "Assiette Shawarma", description: "Viande, pain pita, tomates, concombres, oignons" },
-      { id: "3", img: aMixte, title: "Assiette Mixte", description: "Assortiment de viandes, légumes grillés, sauce spéciale" },
-      { id: "4", img: aKafta, title: "Assiette Kafta", description: "Viande de kafta, oignons, persil, épices" },
-      { id: "5", img: aBrochette, title: "Assiette Brochette", description: "Brochettes de viande, poivrons, oignons" },
-      { id: "6", img: aFiletDePoulet, title: "Assiette Filet de Poulet", description: "Filet de poulet, marinade spéciale" },
-      { id: "7", img: aMerguez, title: "Assiette Merguez", description: "Merguez, sauce harissa, salade" },
-      { id: "8", img: aFalafel, title: "Assiette Falafel", description: "Falafel, houmous, crudités" },
-      { id: "9", img: sDePoulet, title: "Salade de Poulet", description: "Salade, poulet grillé, tomates, concombres" },
-      { id: "10", img: aVege, title: "Assiette Végé", description: "Assortiment de légumes grillés, sauce végétalienne" },
-      // Add more dinner items as needed
+      {
+        id: "11",
+        img: aShishTaouk,
+        title: "Assiette Shish Taouk",
+        description: "Poulet Shish Taouk, servi avec riz, pommes de terre, salade et sauces."
+      },
+      {
+        id: "12",
+        img: aShawarma,
+        title: "Assiette Shawarma Bœuf",
+        description: "Shawarma bœuf et poulet, servi avec riz, pommes de terre, salades et hummus."
+      },
+      {
+        id: "13",
+        img: aMixte,
+        title: "Assiette Mixte",
+        description: "Shawarma bœuf et poulet, servi avec riz, pommes de terre, salade, sauce et hummus."
+      },
+      {
+        id: "14",
+        img: trio,
+        title: "Trio Sandwich",
+        description: "Sandwich au choix servi avec une boisson en canette, une portion de patate et de salade."
+      },
+      {
+        id: "15",
+        img: sDePoulet,
+        title: "Salade Poulet",
+        description: "Salade Fattouche ou César avec une portion de poulet Shish Taouk. Remplaçable par du shawarma bœuf."
+      },
+      {
+        id: "16",
+        img: aBrochette,
+        title: "Brochette de Poulet",
+        description: "Brochette servie avec riz, pommes de terre, salade et sauces."
+      },
+      {
+        id: "17",
+        img: aFiletDePoulet,
+        title: "Filet de Poulet",
+        description: "Filet de poulet servi avec riz, pommes de terre, salade et sauces."
+      },
+      {
+        id: "18",
+        img: aKafta,
+        title: "Assiette Kafta",
+        description: "Galettes de bœuf épicées (2), servies avec riz, pommes de terre, salade et sauces."
+      },
+      {
+        id: "19",
+        img: aFalafel,
+        title: "Assiette Falafel",
+        description: "Boulettes frites sans gluten de pois chiches assaisonnés."
+      },
+      {
+        id: "20",
+        img: aMerguez,
+        title: "Assiette Merguez",
+        description: "Saucisses Merguez servies avec riz et pommes de terre, avec le choix de salades et sauces."
+      },
+      {
+        id: "21",
+        img: couscous,
+        title: "Assiette Couscous",
+        description: "Légumes somptueusement mijotés servis sur un lit de couscous, un plat nord-africain de petites boules de semoule cuites à la vapeur."
+      },
+      {
+        id: "22",
+        img: logo,
+        title: "Assiette Couscous Viande",
+        description: "Légumes somptueusement mijotés servis sur un lit de couscous. Choix de viande."
+      },
+      {
+        id: "23",
+        img: aVege,
+        title: "Assiette Végétarienne",
+        description: "Légumes mijotés, légumes grillés, taboulé, pommes de terre à l'ail, riz et riz."
+      },
+      {
+        id: "24",
+        img: pReg,
+        title: "Poutine Traditionnelle",
+        description: ""
+      },
+      {
+        id: "25",
+        img: pShawarma,
+        title: "Poutine Shawarma",
+        description: "Pommes de terre frites ou pommes de terre à l'ail, fromage en grains, choix de Shish Taouk poulet ou shawarma bœuf, sauce poutine."
+      },
+      {
+        id: "26",
+        img: burger,
+        title: "Hamburger",
+        description: "200 grammes de galette de bœuf garnie de laitue, tomates, oignon et fromage, servie avec des pommes de terre à l'ail."
+      },
+      {
+        id: "27",
+        img: saladeReg,
+        title: "Grande Salade au Choix",
+        description: "3 choix de salades fraîches du jour."
+      },
+      {
+        id: "28",
+        img: saladeReg,
+        title: "Petite Salade au Choix",
+        description: "2 choix de salades fraîches du jour."
+      }
     ],
   },
   {
-    id: "snacks",
-    title: "Collations",
+    id: "sides",
+    title: "Accompagnements",
     articles: [
-      // Add snack items as needed
+      {
+        id: "33",
+        img: saladeReg,
+        title: "Petite Salade au Choix",
+        description: "2 choix de salades fraîches du jour."
+      },
+      {
+        id: "35",
+        img: falafel,
+        title: "Boules de Falafel (4 morceaux)",
+        description: ""
+      },
+      {
+        id: "36",
+        img: rice,
+        title: "Bol de Riz",
+        description: ""
+      },
+      {
+        id: "37",
+        img: patate,
+        title: "Bol de Patates",
+        description: ""
+      },
     ],
   },
   {
-    id: "dessert",
-    title: "Dessert",
+    id: "sweets",
+    title: "Viennoiserie",
     articles: [
-      // Add dessert items as needed
+      {
+        id: "38",
+        img: muffin,
+        title: "Muffin",
+        description: ""
+      },
+      {
+        id: "39",
+        img: choco,
+        title: "Chocolatine",
+        description: ""
+      },
+      {
+        id: "40",
+        img: croissant,
+        title: "Croissant au Beurre",
+        description: ""
+      },
+      {
+        id: "41",
+        img: cAmandes,
+        title: "Croissant aux Amandes",
+        description: ""
+      },
+      {
+        id: "42",
+        img: chausson,
+        title: "Chausson aux Pommes",
+        description: ""
+      },
+      {
+        id: "43",
+        img: baklava,
+        title: "Baklava",
+        description: ""
+      },
     ],
-  },
+  }
 ];
+
 
 //CATERING
 const cateringFR = [
   {
-    id: "1",
-    img: "food",
-    title: "Poulet Rôti",
-    description: "Délicieux poulet rôti",
-    price: "5,23 $ / PAR PERSONNE",
-  },
-  {
-    id: "2",
-    img: "test",
-    title: "Porc à l'Orange",
-    description: "Délicieux porc à l'orange",
-    price: "9,69 $ / PAR PERSONNE",
-  },
-  {
-    id: "3",
-    img: "test",
-    title: "Salade Méditerranéenne",
-    description: "Salade fraîche aux ingrédients méditerranéens",
-    price: "7,99 $ / PAR PERSONNE",
-  },
-  {
-    id: "4",
-    img: "test",
-    title: "Fruits de Mer Grillés",
-    description: "Délicieux mélange de fruits de mer grillés",
-    price: "12,50 $ / PAR PERSONNE",
-  },
-  {
-    id: "5",
-    img: "test",
-    title: "Pâtes à la Carbonara",
-    description: "Pâtes crémeuses à la sauce carbonara",
-    price: "8,75 $ / PAR PERSONNE",
-  },
-  {
-    id: "6",
-    img: "test",
-    title: "Bœuf Braisé",
-    description: "Bœuf tendre braisé lentement",
-    price: "11,20 $ / PAR PERSONNE",
-  },
-  {
-    id: "7",
-    img: "test",
-    title: "Plat Végétarien",
-    description: "Délicieux plat végétarien",
-    price: "6,99 $ / PAR PERSONNE",
-  },
-  {
-    id: "8",
-    img: "test",
-    title: "Assortiment de Sushis",
-    description: "Assortiment frais de sushis",
-    price: "14,99 $ / PAR PERSONNE",
-  },
-  {
-    id: "9",
-    img: "test",
-    title: "Plateau de Fromages",
-    description: "Sélection variée de fromages",
-    price: "9,25 $ / PAR PERSONNE",
-  },
-  {
-    id: "10",
-    img: "test",
-    title: "Pizza Margherita",
-    description: "Pizza Margherita classique",
-    price: "7,50 $ / PAR PERSONNE",
-  },
-  {
-    id: "11",
-    img: "test",
-    title: "Riz Frit aux Légumes",
-    description: "Délicieux riz frit aux légumes",
-    price: "6,80 $ / PAR PERSONNE",
-  },
-  {
-    id: "12",
-    img: "test",
-    title: "Canapés au Saumon",
-    description: "Canapés garnis de saumon fumé",
-    price: "10,50 $ / PAR PERSONNE",
-  },
-  {
-    id: "13",
-    img: "test",
-    title: "Crêpes Sucrées",
-    description: "Crêpes légères avec une garniture sucrée",
-    price: "5,99 $ / PAR PERSONNE",
-  },
-  {
-    id: "14",
-    img: "test",
-    title: "Tarte aux Fruits",
-    description: "Délicieuse tarte aux fruits frais",
-    price: "8,25 $ / PAR PERSONNE",
-  },
-  {
-    id: "15",
-    img: "test",
-    title: "Cocktail de Crevettes",
-    description: "Délicieux cocktail de crevettes",
-    price: "13,45 $ / PAR PERSONNE",
-  },
-  {
-    id: "16",
-    img: "test",
-    title: "Gâteau au Chocolat",
-    description: "Gâteau au chocolat moelleux",
-    price: "9,00 $ / PAR PERSONNE",
-  },
-  {
-    id: "17",
-    img: "test",
-    title: "Tajine de Poulet",
-    description: "Tajine de poulet traditionnel",
-    price: "12,99 $ / PAR PERSONNE",
-  },
-  {
-    id: "18",
-    img: "test",
-    title: "Mousse au Citron",
-    description: "Mousse légère au citron",
-    price: "6,50 $ / PAR PERSONNE",
-  },
-  {
-    id: "19",
-    img: "test",
-    title: "Assiette de Charcuterie",
-    description: "Assortiment de charcuterie fine",
-    price: "10,75 $ / PAR PERSONNE",
-  },
-  {
-    id: "20",
-    img: "test",
-    title: "Fondue au Fromage",
-    description: "Fondue au fromage crémeuse",
-    price: "11,80 $ / PAR PERSONNE",
-  },
-  // Add more catering items as needed
+    id: "",
+    img: "",
+    title: "",
+    description: "",
+    price: "",
+  }
 ];
 
 export {navLinksFR, menuNavFR, itemsFR, cateringFR};

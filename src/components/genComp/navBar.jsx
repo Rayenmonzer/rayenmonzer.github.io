@@ -69,7 +69,7 @@ const NavBar = () => {
             <a
               href="https://linktr.ee/lesgrilladesducedres"
               target="_blank"
-              className="flex w-[200px] justify-center items-center bg-red-600"
+              className="flex w-[200px] justify-center items-center bg-red-600" rel="noreferrer"
             >
               <p className="text-white">
                 {lang === "FR" ? "COMMANDER" : "ORDER"}
@@ -108,12 +108,12 @@ const NavBar = () => {
                     <a
                     href="https://linktr.ee/lesgrilladesducedres"
                     target="_blank"
-                    className="flex w-[200px] justify-center items-center"
+                    className="flex w-[200px] justify-center items-center" rel="noreferrer"
                     >
                     <p className="text-white">
                       {lang === "FR" ? "COMMANDER" : "ORDER"}
                     </p>
-                  </a>
+                    </a>
                 </li>
               </ul>
             </div>

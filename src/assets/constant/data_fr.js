@@ -306,11 +306,53 @@ const itemsFR = [
 //CATERING
 const cateringFR = [
   {
-    id: "",
-    img: "",
-    title: "",
-    description: "",
-    price: "",
+    id: "1",
+    img: logo,
+    title: "Thermos de café",
+    description: "Inclut crème, lait, sucres, couverts, batonets et napkins",
+    price: "16,80$ pour 10 personnes",
+  },
+  {
+    id: "2",
+    img: logo,
+    title: "Viennoiseries",
+    description: "Croissants, Chocolatines, Amandines, et Chaussons au pommes",
+    price: "3,00$ / Personne",
+  },
+  {
+    id: "3",
+    img: logo,
+    title: "Muffins/Biscuits",
+    description: "Morceaux de muffin et biscuits",
+    price: "2,25$ / Personne",
+  },
+  {
+    id: "4",
+    img: logo,
+    title: "Fruits",
+    description: "Plateau de fruits frais (min. 10 personnes)",
+    price: "3,25$ / Personne",
+  },
+  {
+    id: "5",
+    img: logo,
+    title: "Fromages",
+    description: "Plateau de fromages avec craquelins et raisins (min. 10 personnes)",
+    price: "3,25$ / Personne",
+  },
+  {
+    id: "6",
+    img: logo,
+    title: "Petites Bouchets",
+    description: "Bouchets de dinde, jambon, saumon, crabe, et bagel fromage coupé en 4",
+    price: "4,99$ / Personne",
+  },
+  {
+    id: "7",
+    img: logo,
+    title: "Yougourt",
+    description: "Yougourt vanille avec fruits de champs et céréales granola",
+    price: "3,99$ / Personne",
   }
 ];
 

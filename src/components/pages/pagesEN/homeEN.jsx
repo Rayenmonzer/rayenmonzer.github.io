@@ -6,7 +6,16 @@ import { aShishTaouk,aShawarma } from "../../../assets/img/img";
 const Hero = () => (
     <div className="flex flex-col justify-center sm:h-[70vh] h-[80vh] items-center">
         <img className="w-fit h-fit" src={logo} alt="logo"/>
-        <p className="text-[30px] font-light">Restaurant. Coffee Shop. Caterer.</p>
+        <p className="text-[30px] font-light text-center">Restaurant. Coffee Shop. Caterer.</p>
+        <div className="w-full flex justify-center mt-[200px]">
+                <a
+                        href="https://linktr.ee/lesgrilladesducedres"
+                        target="_blank"
+                        className="bg-red-600 rounded-xl px-5" rel="noreferrer"
+                        >
+                        <p className="text-white text-[40px] w-fit text-center">ORDER NOW!</p>
+                </a>
+        </div>
     </div>
 )
 
@@ -49,6 +58,15 @@ const HomeEN = () => {
             <HeroSection />
             <StorySection />
             <SellerSection />
+            <div className="w-full flex justify-center">
+                <a
+                        href="https://linktr.ee/lesgrilladesducedres"
+                        target="_blank"
+                        className="bg-red-600 rounded-xl px-5" rel="noreferrer"
+                        >
+                        <p className="text-white text-[50px] w-fit">ORDER NOW!</p>
+                </a>
+            </div>
         </div>
     );
 }

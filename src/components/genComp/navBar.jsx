@@ -39,7 +39,7 @@ const NavBar = () => {
       <nav className="flex w-full h-[75px] bg-white sticky top-0 border-b z-20 border-black text-black text-[21px]">
         <div className="flex w-full">
           <Link to={`/home${lang === "EN" ? "/en" : ""}`} className="flex items-center sm:ml-12 ml-5">
-            <img className="w-[95%] h-[80%]" src={logo} alt="logo"/>
+            <img className="w-[56px] h-[56px]" src={logo} alt="logo"/>
           </Link>
           {/*OPTIONS ON NAVBAR LARGE SCREEN*/}
           <div className="lg:flex hidden ml-auto h-full">

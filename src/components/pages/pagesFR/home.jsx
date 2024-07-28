@@ -5,7 +5,9 @@ import { aShishTaouk,aShawarma } from "../../../assets/img/img";
 
 const Hero = () => (
     <div className="flex flex-col justify-center sm:h-[70vh] h-[80vh] items-center">
-        <img className="w-fit h-fit" src={logo} alt="logo"/>
+        <div className="w-fit aspect-square">
+            <img className="w-full h-full object-cover" src={logo} alt="logo" />
+        </div>
         <p className="text-[30px] font-light text-center">Restaurant. Café. Traiteur.</p>
     </div>
 )

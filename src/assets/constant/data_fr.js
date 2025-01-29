@@ -310,7 +310,7 @@ const cateringFR = [
     img: logo,
     title: "Thermos de café",
     description: "Inclut crème, lait, sucres, couverts, batonets et napkins",
-    price: "16,80$ pour 10 personnes",
+    price: "17,80$ pour 10 personnes",
   },
   {
     id: "2",

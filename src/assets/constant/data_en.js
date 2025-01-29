@@ -311,7 +311,7 @@ const cateringEN = [
     img: logo,
     title: "Thermos of Coffee",
     description: "Includes cream, milk, sugars, utensils, stirrers, and napkins",
-    price: "$16.80 for 10 people",
+    price: "$17.80 for 10 people",
   },
   {
     id: "2",
